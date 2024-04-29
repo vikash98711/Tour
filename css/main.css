@@ -1923,6 +1923,68 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 30px;
 }
 
+
+.bg-img-hero, .bg-img-hero-bottom {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.space-3, .space-bottom-3 {
+  padding-bottom: 8rem !important;
+}
+.space-3, .space-top-3 {
+  padding-top: 8rem !important;
+}
+.font-weight-bold, .font-weight-medium, .font-weight-semi-bold {
+  font-weight: 500 !important;
+}
+.font-size-40 {
+  font-family: var(--font-primary);
+  font-size: 2.5rem;
+}
+.font-size-18 {
+  font-size: 1.125rem;
+  font-family: var(--font-primary);
+
+}
+.transition-3d-hover {
+  transition: all .2s ease-in-out;
+}
+.min-width-200 {
+  min-width: 12.5rem;
+}
+.border-width-2 {
+  border-width: 2px !important;
+}
+.rounded-xs {
+  border-radius: .188rem;
+}
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+.btn-outline-white {
+  border-color: #fff !important;
+  color: #fff !important;
+}
+.Get_inspired{
+      /* background-color: transparent; */
+      border: 1px solid white !important;
+      /* border-radius: .3125rem; */
+      color: #3b444f;
+      display: inline-block;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.5;
+      padding: .9rem 1rem;
+      text-align: center;
+      transition: all .2s ease-in-out;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      vertical-align: middle;
+  font-family: var(--font-primary);
+
+}
 @media (max-width: 1199px) {
   .masthead.-type-2 .mainSearch {
     position: relative;
